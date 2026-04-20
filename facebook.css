@@ -1,0 +1,110 @@
+*{
+    font-family: sans-serif;
+}
+
+.form-page {
+    display: flex;
+    margin-top: 60px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+h1{
+color: rgb(12, 12, 12);
+font-weight: 100;
+font-size: large;
+}
+
+header{
+    margin: 2rem 50% ;
+}
+
+input[type="text"]{
+    align-items: center;
+    width: 90%;
+    margin: 1rem auto;
+    border: 2px solid #c4c1c1;
+    border-radius: 12px;
+    padding: 15px 15px;    
+}
+input:hover{
+    border: 2px solid #181616;
+}
+
+input[type="password"]{
+    align-items: center;
+    width: 90%;
+    margin:  auto;
+    border: 2px solid #c4c1c1;
+    border-radius: 12px;
+    padding: 15px 15px;
+}
+
+button[type=login]{
+    align-items: center;
+    width: 90%;
+    margin: 1rem auto;
+    color: #fff;
+    background-color: rgb(0, 100, 224);
+    padding: 14px 15px;
+    border-radius: 25px;
+    border: none ;
+    cursor: pointer;
+}
+form{
+   
+/* margin: auto; */
+max-width:500px;
+}
+.forgotten{
+        align-items: center;
+            width: 90%;
+            background-color: transparent;
+            margin:  auto;
+            color: #121212;
+            font-weight: 500;
+            padding: 13px 155px;
+            border-radius: 25px;
+            border: none;
+           font-family: "segoe ui historic";
+           cursor: pointer;
+}
+.forgotten a{
+    background-color: transparent;
+            color: #121212;
+            text-decoration: none;
+}
+.forgotten:hover{
+            background-color: lightgray;
+            text-decoration: none;
+}
+.button[type="new account"]{
+    align-items: center;
+    width: 90%;
+
+}
+.new{
+    color: rgb(0, 100, 224);
+    align-items: center;
+    width: 90%;
+    padding: 13px 15px;
+    border-radius: 25px;
+    border-color: rgb(0, 100, 224);
+    text-decoration: none;
+    margin: 2rem auto;
+    background-color: transparent;
+    cursor: pointer;
+}
+.new:hover{
+    background-color: lightgray;
+
+}
+meta{
+    
+    
+    margin:  auto;
+    
+
+}
