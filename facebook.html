@@ -6,40 +6,62 @@
     <meta name="Author" content="NJaey">
     <title>Facebook.com</title>
     <link rel="stylesheet" href="facebook.css">
+    <link rel="preconnect"
+        href="https://web.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjo1LCJjcmVhdGlvbl90aW1lIjoxNzc2Njg2MjYzfQ%3D%3D&ars=facebook_login">
+    <link rel="preconnect" href="https://web.facebook.com/reg/?entry_point=login&next=">
 </head>
 
 <body>
-    <main>
-        <header>
-            <img src="facebook.png" alt="facebook icon" width="50">
-        </header>
-        <hr class="hr">
-
-        <container class="form-page">
-            <form action="/action_page" method="">
-
-
+    <main class="main_container">
+        <!-- Left container start -->
+        <div class="Left_container">
+            <div class="content_container">
+                <img src="facebook.png" alt="Facebook Logo" class="content_logo">
                 <h1>
-                    Log in to Facebook
+                    Explore the things <span style="color: blue;">you love.</span>
                 </h1>
+            </div>
+            <div class="image_container">
+                <img src="login-image.png" alt="fun image" class="image">
+            </div>
+        </div>
 
-                <input type="text" placeholder="Email address or mobile number">
-                <input type="password" placeholder="password">
 
-                <button type="login">Log in</button>
+        <!-- Left container end -->
+        <!-- right container start -->
+        <div class="right_container">
+            <!-- <header>
+                <img src="facebook.png" alt="facebook icon" width="50">
+            </header>
+            <hr class="hr"> -->
+            <container class="form-page">
+                <form action="/action_page" method="">
 
-                <button class="forgotten">
-                    <a
-                        href="https://web.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjo1LCJjcmVhdGlvbl90aW1lIjoxNzc2Njg2MjYzfQ%3D%3D&ars=facebook_login">Forgotten
-                        password?</a>
-                </button>
-                <button class="new">
-                    <a class="new" href="https://web.facebook.com/reg/?entry_point=login&next=">Create new account </a>
-                </button>
-            </form>
-            
-                    <img class="meta" src="meta-logo-png.png" alt="meta logo" width="60" height="12">
-        </container>
+
+                    <h1>
+                        Log in to Facebook
+                    </h1>
+
+                    <input type="text" placeholder="Email address or mobile number">
+                    <input type="password" placeholder="password">
+
+                    <button type="login">Log in</button>
+
+                    <button class="forgotten">
+                        <a
+                            href="https://web.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjo1LCJjcmVhdGlvbl90aW1lIjoxNzc2Njg2MjYzfQ%3D%3D&ars=facebook_login">Forgotten
+                            password?</a>
+                    </button>
+                    <button class="new">
+                        <a class="new" href="https://web.facebook.com/reg/?entry_point=login&next=">Create new account
+                        </a>
+                    </button>
+                </form>
+
+                <img class="meta" src="meta-logo-png.png" alt="meta logo" width="60" height="12">
+            </container>
+        </div>
+        <!-- right container end -->
     </main>
 </body>
 
