@@ -16,13 +16,13 @@
         width: 35px;
         height: 5px;
         background-color: #333;
-        margin: 6px;
-        transition: 10ms;
+        margin: 6px 0;
+        transition: 4ms;
       }
 
-      .change,
+      .change
       .bar1 {
-        transform: translate(0, 11px) rotate(45deg);
+        transform: translate(0, 11px) rotate(-45deg);
       }
 
       .change .bar2 {
@@ -30,7 +30,7 @@
       }
 
       .change .bar3 {
-        transform: translate(0, 11px) rotate(-45deg);
+        transform: translate(0, -11px) rotate(45deg);
       }
     </style>
   </head>
@@ -45,7 +45,7 @@
 
     <script>
       function myFunction(x) {
-        x.classlist.toggle("change");
+        x.classList.toggle("change");
       }
     </script>
   </body>
